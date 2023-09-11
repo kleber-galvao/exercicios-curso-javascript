@@ -26,10 +26,23 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    font-size: 3em;
 }
 
 .relogio {
-    font-size: 3em;
+    font-size: 2em;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1em;
+    font-size: .5em;
+}
+
+button:hover {
+    background-color: red;
 }
 
 .pausado {

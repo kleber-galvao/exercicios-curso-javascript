@@ -21,13 +21,13 @@ function iniciaRelogio() {
 };
 
 iniciar.addEventListener('click', function (event) {
-    relogio.classList.remove('pausado');
+    relogio.classList.remove('pausado'); // remove classe pausado criado no css
     clearInterval(timer); // para contagem
     iniciaRelogio();
 });
 
 pausar.addEventListener('click', function (event) {
-    relogio.classList.add('pausado');
+    relogio.classList.add('pausado'); // adiciona classe pausado criado no css
     clearInterval(timer);
 });
 
